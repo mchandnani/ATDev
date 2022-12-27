@@ -17,7 +17,7 @@ public class insert1
             Statement stmt = con.createStatement();
              
             // Inserting data in database
-            String q1 = "insert into userid values('" +id+ "', '" +name+
+            String q1 = "insert into student values('" +id+ "', '" +name+
                                   "', '" +fname+ "', '" +email+ "')";
             int x = stmt.executeUpdate(q1);
             if (x > 0)           
