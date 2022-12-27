@@ -1,0 +1,6 @@
+CREATE TABLE student(
+    id varchar2(30) NOT NULL PRIMARY KEY,
+    name varchar2(30) NOT NULL,
+    fname varchar2(50),
+    email varchar2(50)
+);
